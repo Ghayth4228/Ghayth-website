@@ -1,0 +1,29 @@
+title: Ghayth
+description: "Islamic Education"
+url: "https://ghayth.ca"
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path.html
+  courses:
+    output: true
+    permalink: /courses/:path.html
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
+
+# Files Jekyll should not try to process
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

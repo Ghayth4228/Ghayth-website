@@ -1,0 +1,56 @@
+{% include head.html %}
+<body>
+{% include nav.html %}
+
+<div class="course-header">
+  <div class="wrap">
+    <a href="/courses.html" class="back-link">Back to Courses</a>
+    <div class="course-header-inner">
+      <div class="course-num">{{ page.arabic_letter }}</div>
+      <div>
+        <h1>{{ page.title }}</h1>
+        <div class="course-header-meta">
+          <span>{{ page.format_tag }}</span>
+          <span>{{ page.duration }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap course-body">
+  <div>
+    {{ content }}
+
+    {% if page.learn_items %}
+    <h2>What you'll learn</h2>
+    <ul>
+      {% for item in page.learn_items %}<li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.curriculum %}
+    <h2>Curriculum</h2>
+    <ul>
+      {% for item in page.curriculum %}<li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
+  <div class="enroll-card">
+    <div class="price">{{ page.price }}</div>
+    <div class="price-note">{{ page.price_note }}</div>
+    <a class="btn btn-primary" href="mailto:{{ page.enroll_email | default: 'enroll@ghayth.ca' }}?subject={{ page.mailto_subject | url_encode }}">Join Now</a>
+    <a class="btn btn-ghost" href="/#subscribe">Get Notified of Next Cohort</a>
+    <p class="fine-print">Enrollment currently opens by email while we set up online registration. We'll reply with payment and start-date details.</p>
+  </div>
+</div>
+
+{% include footer.html %}
+<script>
+{% include scripts.html %}
+</script>
+</body>
+</html>

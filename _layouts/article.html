@@ -1,0 +1,26 @@
+{% include head.html %}
+<body>
+{% include nav.html %}
+
+<article class="article-header">
+  <div class="wrap">
+    <a href="/articles.html" class="back-link">Back to Articles</a>
+    <span class="tag">{{ page.tag }}</span>
+    <h1>{{ page.title }}</h1>
+    <div class="article-meta-bar">
+      <span>{{ page.read_time }}</span>
+      <span>{{ page.series }}</span>
+    </div>
+  </div>
+</article>
+
+<div class="article-body wrap">
+{{ content }}
+</div>
+
+{% include footer.html %}
+<script>
+{% include scripts.html %}
+</script>
+</body>
+</html>
