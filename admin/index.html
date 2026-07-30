@@ -6,6 +6,12 @@
   <title>Ghayth — Admin</title>
 </head>
 <body>
+  <!-- Point the identity widget at the actual Netlify site, since this page is hosted on GitHub Pages -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    netlifyIdentity.init({ APIUrl: "https://cheery-genie-5e9c14.netlify.app/.netlify/identity" });
+  </script>
+
   <!-- Include the Decap CMS script -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
