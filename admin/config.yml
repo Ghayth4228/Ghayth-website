@@ -1,8 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Ghayth4228/Ghayth-website
   branch: main
-  identity_url: https://cheery-genie-5e9c14.netlify.app/.netlify/identity
-  gateway_url: https://cheery-genie-5e9c14.netlify.app/.netlify/git
+  base_url: https://sveltia-cms-auth.ghayth4228.workers.dev
 
 publish_mode: simple
 media_folder: "uploads"
