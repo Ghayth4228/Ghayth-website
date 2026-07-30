@@ -6,12 +6,16 @@ read_time: 3 min read
 series: ''
 ---
 
-For many of us, "_Bismillah_" has become something that we say out of habit. However, if we were to contemplate a bit more, we might unearth the hidden power in this blessed sentence. 
+For many of us, "_Bismillah_" has become something that we say out of mere habit. However, if we were to contemplate a bit more, we might unearth the power in this blessed sentence. 
 
-It's worth pondering over the fact that anything that happens, only happens by the will and creation of Allah (سبحانه وتعالى). Despite that, more often than not, our attention turns to material causes and ignores this underlying reality. For this very reason, Allah تعالى and the Messenger صلى الله عليه وسلم remind us in many places that the true mover and creator of all things is none other than Allah جل شأنه. We are encouraged to say لا حول ولا قوة إلا بالله, to engrain this fact in our minds. 
+It's worth pondering over the fact that anything that happens, only happens by the will and creation of Allah _subhanahu wa ta'ala_. 
 
-Similarly, "_Bismillah_" points towards that exact reality. Even though we often start our _Durus_ with it, our worldly distractions stand as a barrier between us and contemplating its meaning. 
+Despite that, more often than not, our attention turns to material causes and we ignore this underlying reality. 
 
-Scholars mention that the amount of _Tawakkul_ (reliance in Allah) and negation of ability from himself a person has when he says بسم الله الرحمن الرحيم, defines the extent to which he will be aided by Allah عز وجل in his endeavor. 
+For this very reason, Allah _ta'ala_ and his Messenger ﷺ remind us in many places that the true mover of all things is none other than Allah _Ta'ala_. We are encouraged to say لا حول ولا قوة إلا بالله, to engrain this fact in our minds. 
+
+"_Bismillah_" points towards that exact reality. Even though we often start our food, _wudhu,_ and even our _Durus_ with it, our worldly distractions stand as a barrier between us and contemplating the depths of its meaning. 
+
+Scholars mention that the amount of _Tawakkul_ (reliance in Allah) and degree to which a person recognizes his own incapability while he recites بسم الله الرحمن الرحيم, define the extent to which he is aided by Allah _'azza wa jall_ in his endeavor. 
 
 اللهم إنا نبرأ إليك من حولنا وقوتنا إلى حولك وقوتك.
