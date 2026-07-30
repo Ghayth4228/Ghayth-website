@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  identity_url: https://cheery-genie-5e9c14.netlify.app/.netlify/identity
+  gateway_url: https://cheery-genie-5e9c14.netlify.app/.netlify/git
 
 publish_mode: simple
 media_folder: "uploads"
