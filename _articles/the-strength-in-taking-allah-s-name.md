@@ -16,6 +16,6 @@ For this very reason, Allah _ta'ala_ and his Messenger ﷺ remind us in many pla
 
 "_Bismillah_" points towards that exact reality. Even though we often start our food, _wudhu,_ and even our _Durus_ with it, our worldly distractions stand as a barrier between us and contemplating the depths of its meaning. 
 
-Scholars mention that the amount of _Tawakkul_ (reliance in Allah) and degree to which a person recognizes his own incapability while he recites بسم الله الرحمن الرحيم, define the extent to which he is aided by Allah _'azza wa jall_ in his endeavor. 
+Scholars mention that the amount of _Tawakkul_ (reliance in Allah) and the degree to which a person recognizes his own incapability while he recites بسم الله الرحمن الرحيم, define the extent to which he is aided by Allah _'azza wa jall_ in his endeavor. 
 
 اللهم إنا نبرأ إليك من حولنا وقوتنا إلى حولك وقوتك.
