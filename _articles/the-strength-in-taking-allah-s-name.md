@@ -2,7 +2,7 @@
 title: The Power of Taking Allah's Name
 tag: Haqiqah
 summary: For many of us, "Bismillah" has become something that we say out of habit. However, if we were to contemplate a bit more, we might unearth the hidden power in this blessed sentence.
-read_time: 5 min read
+read_time: 3 min read
 series: ''
 ---
 
