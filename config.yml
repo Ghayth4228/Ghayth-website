@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: Ghayth4228/Ghayth-website
+  branch: main
+  base_url: https://sveltia-cms-auth.ghayth4228.workers.dev
+
+publish_mode: simple
+media_folder: "uploads"
+public_folder: "/uploads"
+
+site_url: https://ghayth.ca
+display_url: https://ghayth.ca
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "_articles"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category (e.g. Aqidah, Worship, History)", name: "tag", widget: "string" }
+      - { label: "Summary (shown on the Articles list page)", name: "summary", widget: "text" }
+      - { label: "Read Time (e.g. 8 min read)", name: "read_time", widget: "string", default: "5 min read" }
+      - { label: "Series (small label, e.g. Belief series)", name: "series", widget: "string", required: false }
+      - label: "Article Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Write your article here. Use the toolbar for headings, bold, links, etc."
+
+  - name: "courses"
+    label: "Courses"
+    folder: "_courses"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Arabic Letter (single letter shown as the course icon)", name: "arabic_letter", widget: "string" }
+      - { label: "Summary (shown on the Courses list page)", name: "summary", widget: "text" }
+      - { label: "Format (e.g. Live + recorded, Live cohort)", name: "format_tag", widget: "string" }
+      - { label: "Duration (e.g. 8 weeks, Self-paced · 10 modules)", name: "duration", widget: "string" }
+      - { label: "Display Order (1 = shows first)", name: "order", widget: "number", default: 1 }
+      - { label: "Price (e.g. Free, $49)", name: "price", widget: "string", default: "Free" }
+      - { label: "Price Note", name: "price_note", widget: "string", default: "Funded by Ghayth — no cost to students" }
+      - { label: "Enrollment Email (optional — leave blank to use enroll@ghayth.ca)", name: "enroll_email", widget: "string", required: false }
+      - { label: "Email Subject Line", name: "mailto_subject", widget: "string" }
+      - label: "What You'll Learn (one item per line)"
+        name: "learn_items"
+        widget: "list"
+      - label: "Curriculum (one item per line)"
+        name: "curriculum"
+        widget: "list"
+      - label: "Course Description"
+        name: "body"
+        widget: "markdown"
+        hint: "Write the full course description here."
