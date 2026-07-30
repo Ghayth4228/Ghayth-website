@@ -1,12 +1,36 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex" />
-  <title>Ghayth — Admin</title>
-</head>
-<body>
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
-</body>
-</html>
+---
+layout: default
+title: null
+permalink: /
+---
+<header class="hero" id="top">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Islamic Education</p>
+    <h1>Islamic knowledge, made accessible.</h1>
+    <p class="lead">Articles, courses, and answers, grounded in the Qur'an and Sunnah.</p>
+    <div class="hero-actions">
+      <a href="/courses.html" class="btn btn-primary">Start learning</a>
+      <a href="/articles.html" class="btn btn-ghost">Read the latest</a>
+    </div>
+  </div>
+</header>
+
+<div class="epigraph">
+  <div class="wrap epigraph-inner">
+    <span class="arabic">وَهُوَ الَّذِي يُنَزِّلُ الْغَيْثَ مِنْ بَعْدِ مَا قَنَطُوا وَيَنشُرُ رَحْمَتَهُ ۚ وَهُوَ الْوَلِيُّ الْحَمِيدُ</span>
+    <p>"He is the One who sends down the rain after people have lost all hope, and spreads out His mercy. He is the Protector, the Praiseworthy."</p>
+    Surah Ash-Shura · 42:28
+  </div>
+</div>
+
+<div class="newsletter" id="subscribe">
+  <div class="wrap">
+    <span class="arabic">اطلب العلم</span>
+    <h2>Stay updated with Ghayth.</h2>
+    <p>New articles, course openings, and answered questions.</p>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed ✓';">
+      <input type="email" placeholder="you@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</div>
